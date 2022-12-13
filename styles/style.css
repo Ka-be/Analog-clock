@@ -79,7 +79,6 @@ h1 .dot {
   height: 90%;
   width: 90%;
   transform: rotate(90deg);
-  transition: all 0.6s;
 }
 
 .hand {
@@ -89,6 +88,8 @@ h1 .dot {
   transform-origin: 100%;
   position: relative;
   top: 50%;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  transition: all 0.6s;
 }
 .hand.hour-hand {
   background: #6f6e6e;
