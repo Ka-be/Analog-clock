@@ -15,7 +15,7 @@ h1 {
 
 .clock-face {
   border: solid 40px hsla(51, 19%, 86%, 0.2);
-  outline: solid 10px $Pure-Pink;
+  outline: solid 10px hsla(51, 19%, 86%, 0.5);
 	height: 300px;
 	width: 300px;
 	border-radius: 100%;
@@ -45,6 +45,7 @@ h1 {
 .hand{
   width: 50%;
   height: 2px;
+  border-radius: 20px / 50%; // Sharp the hand's edges
   background: black;
   transform-origin: 100%;
   position: relative;
@@ -59,7 +60,7 @@ h1 {
 
   &.min-hand{
     background: $Grey;
-    border: solid 2px $Grey;
+    border: solid 2px $Dark-Grey;
     position: relative;
     top:89px; // Offset hand fix
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);

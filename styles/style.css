@@ -57,7 +57,7 @@ h1 .dot {
 
 .clock-face {
   border: solid 40px hsla(51deg, 19%, 86%, 0.2);
-  outline: solid 10px #e7cac2;
+  outline: solid 10px hsla(51deg, 19%, 86%, 0.5);
   height: 300px;
   width: 300px;
   border-radius: 100%;
@@ -84,6 +84,7 @@ h1 .dot {
 .hand {
   width: 50%;
   height: 2px;
+  border-radius: 20px/50%;
   background: black;
   transform-origin: 100%;
   position: relative;
@@ -97,7 +98,7 @@ h1 .dot {
 }
 .hand.min-hand {
   background: #959595;
-  border: solid 2px #959595;
+  border: solid 2px #6f6e6e;
   position: relative;
   top: 89px;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
@@ -112,4 +113,8 @@ h1 .dot {
 footer {
   margin-bottom: 5px;
   color: #959595;
+}
+footer a:hover {
+  color: #e2e0d4;
+  transition: all 0.5s ease-out;
 }/*# sourceMappingURL=style.css.map */
