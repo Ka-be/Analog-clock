@@ -1,0 +1,16 @@
+body,
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body,
+main,
+footer {
+	width: 100%;
+	@include flex-column-center;
+}
+
+main{
+  flex: 2;
+}

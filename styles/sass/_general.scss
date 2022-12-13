@@ -1,0 +1,75 @@
+body {
+	font-family: "lora", serif;
+	background: $Off-Pink;
+}
+
+h1 {
+	font-size: 300px;
+	color: $Dark-Grey;
+	font-weight: 100;
+
+	.dot {
+		color: $Pure-Pink;
+	}
+}
+
+.clock-face {
+  border: solid 40px hsla(51, 19%, 86%, 0.2);
+  outline: solid 10px $Pure-Pink;
+	height: 300px;
+	width: 300px;
+	border-radius: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+// inner circle
+  &::after{
+    width: 30px;
+    height: 30px;
+    background: $Pure-Pink;
+    border-radius: 100%;
+    position: absolute;
+    margin: auto;
+    content: "";
+  }
+}
+
+.hands {
+	height: 90%;
+	width: 90%;
+  transform: rotate(90deg);
+  transition: all 0.6s;
+}
+
+.hand{
+  width: 50%;
+  height: 2px;
+  background: black;
+  transform-origin: 100%;
+  position: relative;
+  top: 50%;
+
+  &.hour-hand{
+    background: $Dark-Grey;
+    border: solid 3px $Dark-Grey;
+    top:95px; // Offset hand fix
+    transform: rotate(-30deg);
+  }
+
+  &.min-hand{
+    background: $Grey;
+    border: solid 2px $Grey;
+    position: relative;
+    top:89px; // Offset hand fix
+    transform: rotate(-90deg);
+  }
+
+  &.second-hand{
+    background: $Soft-Grey;
+    position: relative;
+    top:89px; // Offset hand fix
+    transform: rotate(0deg);
+  }
+}
