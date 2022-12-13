@@ -88,27 +88,25 @@ h1 .dot {
   transform-origin: 100%;
   position: relative;
   top: 50%;
-  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
-  transition: all 0.6s;
 }
 .hand.hour-hand {
   background: #6f6e6e;
   border: solid 3px #6f6e6e;
   top: 95px;
-  transform: rotate(-30deg);
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 .hand.min-hand {
   background: #959595;
   border: solid 2px #959595;
   position: relative;
   top: 89px;
-  transform: rotate(-90deg);
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 .hand.second-hand {
   background: #e8e8e8;
   position: relative;
   top: 89px;
-  transform: rotate(0deg);
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 
 footer {
