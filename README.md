@@ -1,12 +1,8 @@
-# Analog - ![Status](https://img.shields.io/badge/Status-On%20going-fd9644?style=flat-square)
+# Analog - ![Status](https://img.shields.io/badge/Status-Finished-20bf6b?style=flat-square)
 
-<!-- ![Status](https://img.shields.io/badge/Status-On%20going-fd9644?style=flat-square) -->
+<img src="images/logo.svg" width=50%>
 
-<!-- ![Status](https://img.shields.io/badge/Status-Finished-20bf6b?style=flat-square) -->
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
-A simple minimalist clock.
+A simple & minimalist clock.
 
 ---
 
@@ -14,7 +10,6 @@ A simple minimalist clock.
 
 **Client:**
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?&logo=css3&logoColor=white)
 ![SASS](https://img.shields.io/badge/Sass-CC6699?&logo=sass&logoColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?&logo=javascript&logoColor=black)
 
@@ -58,7 +53,7 @@ A simple minimalist clock.
 
 ## 📸 Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="images/Screenshot.webp" width=70%>
 
 ---
 
