@@ -20,7 +20,7 @@ A simple & minimalist clock.
 
 ## 💡 Features
 
-![None](https://img.shields.io/badge/NONE-778899?)
+![Responsive](https://img.shields.io/badge/Responsive-None-E74C3C?style=flat-square)
 
 ---
 
